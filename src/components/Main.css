@@ -1,0 +1,31 @@
+.main {
+    padding: 57px 27px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-image: url("../assets/react-icon-large.png");
+    background-position-x: right; /* Center the image */
+    background-position-y: 75%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    min-height: 100%;
+}
+
+.main--title {
+    font-size: 39.06px;
+    font-weight: 800;
+}
+
+.main--list {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 46px;
+    max-width: 400px;
+}
+
+.main--list-item {
+    padding-block: 10px;
+}
+
+.main--list-item::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
